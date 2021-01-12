@@ -1,7 +1,7 @@
 # COVID-19 Testing Facility Management 
 ## Table of contents
 * [Utility](#utility)
-* [Conceptual Diagram](#Conceptual Diagram)
+* [Conceptual Diagram](#Conceptual)
 * [Functionalities](#Functionalities)
 * [Technologies](#Technologies)
 * [Team](#Team)
@@ -12,7 +12,7 @@ tests are added to the testing facility's list, as well as the Public Health Dis
 notified. Statistics about symptoms and the rate of infection calculator can help local and national authorities in choosing efficient strategies.
 Thus, the application is trying to become an aid in the fight with a difficult and highly complex matter.
 	
-## Conceptual Diagram
+## Conceptual
 https://github.com/dianagrigore/COVID-19-Test-Facility-Management/blob/main/image.jpg?raw=true
 
 ## Functionalities
