@@ -13,7 +13,7 @@ notified. Statistics about symptoms and the rate of infection calculator can hel
 Thus, the application is trying to become an aid in the fight with a difficult and highly complex matter.
 	
 ## Conceptual
-https://github.com/dianagrigore/COVID-19-Test-Facility-Management/blob/main/image.jpg?raw=true
+https://github.com/dianagrigore/COVID-19-Test-Facility-Management/blob/main/Diagrama%20conceptuala.pdf
 
 ## Functionalities
 <ol>
