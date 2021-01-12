@@ -7,7 +7,7 @@
 * [Team](#Team)
 
 ## Utility
-The Database proides a broad view over the persons tested for COVID-19. When tested, a patient can be declared positive or negative. Positive
+The Database provides a broad view over the persons tested for COVID-19. When tested, a patient can be declared positive or negative. Positive
 tests are added to the testing facility's list, as well as the Public Health District Authority. Contacts can be traced and persons at risk can be
 notified. Statistics about symptoms and the rate of infection calculator can help local and national authorities in choosing efficient strategies.
 Thus, the application is trying to become an aid in the fight with a difficult and highly complex matter.
