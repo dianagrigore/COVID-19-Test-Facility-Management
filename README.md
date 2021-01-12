@@ -21,7 +21,7 @@ https://github.com/dianagrigore/COVID-19-Test-Facility-Management/blob/main/Diag
 Procedure that generates statistics about simptoms, comorbidities and COVID-19 test result.
 <ul>
 	<li> List of simptoms that showed up in positive tested individuals </li>
-	<li> List of simptoms that showed up in positive testet individuals with comorbidities </li>
+	<li> List of simptoms that showed up in positive tested individuals with comorbidities </li>
 	<li> Top 3 most common misleading simptoms </li>
 	</ul>
 </li>
