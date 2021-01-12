@@ -44,7 +44,7 @@ Procedure that generates statistics about simptoms, comorbidities and COVID-19 t
 </ol>
 
 ## Technologies
- SQL
+ SQL + 
  PL/SQL
 
 ## Team
