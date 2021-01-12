@@ -42,6 +42,7 @@ Procedure that generates statistics about simptoms, comorbidities and COVID-19 t
   a report containing the list of tests is printed.
 </li>
 </ol>
+
 ## Technologies
  SQL
  PL/SQL
