@@ -310,22 +310,6 @@ increment by 1
 nocache
 nocycle;
 
-insert into medic_familie values(medic_seq.nextval, 'Stefanoiu', 'Georgeta', 0, '0755 0544 132');
-insert into medic_familie values(medic_seq.nextval, 'Paraschiv', 'Stela', 0, '0728 098 558');
-insert into medic_familie values(medic_seq.nextval, 'Ilie', 'Gabriela', 0, '0745 086 153');
-insert into medic_familie values(medic_seq.nextval, 'Comeaga', 'Mihaela', 0, '0239 694 200');
-insert into medic_familie values(medic_seq.nextval, 'Raducan', 'Ioana', 0, '0740 318 050');
-insert into medic_familie values(medic_seq.nextval, 'Zaituc', 'Viorica', 0, '0264 417 672');
-insert into medic_familie values(medic_seq.nextval, 'Cozma', 'Daciana', 0, '0230 210 421');
-insert into medic_familie values(medic_seq.nextval, 'Olinescu', 'Maria', 0, '0731 598 999');
-insert into medic_familie values(medic_seq.nextval, 'Cardei', 'Laura', 0, '0232 291 077');
-insert into medic_familie values(medic_seq.nextval, 'Grigore', 'Ioana', 0, '0264 244 323');
-insert into medic_familie values(medic_seq.nextval, 'Gabor', 'Marius', 0, '0767 970 030');
-insert into medic_familie values(medic_seq.nextval, 'Ungur', 'Raul', 0, '0724 572 022');
-insert into medic_familie values(medic_seq.nextval, 'Stanca', 'Dorin', 0, '021 434 2449');
-insert into medic_familie values(medic_seq.nextval, 'Antonescu', 'Ion', 0, '0251 468 393');
-insert into medic_familie values(medic_seq.nextval, 'Poienaru', 'Eftimie', 0, '031 407 2863');
-insert into medic_familie values(medic_seq.nextval, 'Voicu', 'Filip', 0, '0232 233 882');
 
 create sequence job_seq
 start with 100
@@ -456,29 +440,7 @@ increment by 1
 nocache
 nocycle;
 
-insert into pacient values(pacient_seq.nextval, 'Oprea','Jean','BARBAT', '0721 330 354', 'OJ@test.com', 1, 101, 1, 1, to_date('12-01-1999', 'DD-MM-YYYY'));
-insert into pacient values(pacient_seq.nextval, 'Alexandrescu','Irina','FEMEIE', '0722 431 584', 'AI@test.com', 2, 104, 7, 2, to_date('11-10-1973', 'DD-MM-YYYY'));
-insert into pacient values(pacient_seq.nextval, 'Popescu','Mihai','BARBAT', '0723 331 956', 'PM@test.com', 3, 102, 3, 17, to_date('12-07-1979', 'DD-MM-YYYY'));
-insert into pacient values(pacient_seq.nextval, 'Stefan','Lenuta','FEMEIE', '0722 630 614', 'SL@test.com', 4, 105, 4, 21, to_date('13-03-1990', 'DD-MM-YYYY'));
-insert into pacient values(pacient_seq.nextval, 'Simionescu','Matei','BARBAT', '0724 332 356', 'SM@test.com', 5, 106, 4, 22, to_date('22-09-1963', 'DD-MM-YYYY'));
 
-insert into pacient values(pacient_seq.nextval, 'Pop','Georgeta','FEMEIE', '0729 120 723', 'PG@test.com', 6, 101, 1, 1, to_date('29-08-1962', 'DD-MM-YYYY'));
-insert into pacient values(pacient_seq.nextval, 'Pop','Irina','FEMEIE', '0722 431 584', 'AI@test.com', 2, 4, 107, 2, to_date('11-10-1973', 'DD-MM-YYYY'));
-insert into pacient values(pacient_seq.nextval, 'Pop','Mircea','BARBAT', '0721 311 126', 'PMi@test.com', 6, 101, 1, 1, to_date('12-05-1970', 'DD-MM-YYYY'));
-insert into pacient values(pacient_seq.nextval, 'Mihalcea','Vlad','BARBAT', '0772 676 624', 'MV@test.com', 7, 103, 5, 15, to_date('12-03-1965', 'DD-MM-YYYY'));
-insert into pacient values(pacient_seq.nextval, 'Enache','Iulian','BARBAT', '0754 352 556', 'EI@test.com', 8, 106, 6, 22, to_date('22-01-1990', 'DD-MM-YYYY'));
-
-insert into pacient values(pacient_seq.nextval, 'Ardelean','Vladimir','BARBAT', '0721 122 233', 'AV@test.com', 9, 107, 7, 11, to_date('25-12-1988', 'DD-MM-YYYY'));
-insert into pacient values(pacient_seq.nextval, 'Gaina','Nela','FEMEIE', '0711 401 504', 'GN@test.com', 10, 108, 7, 11, to_date('21-11-1998', 'DD-MM-YYYY'));
-insert into pacient values(pacient_seq.nextval, 'Stanca','Marrian','BARBAT', '0724 291 126', 'SM@test.com', 10, 108, 7, 11, to_date('11-09-1971', 'DD-MM-YYYY'));
-insert into pacient values(pacient_seq.nextval, 'Hasdeu','Iulia','FEMEIE', '0712 616 224', 'HI@test.com', 11, 109, 8, 15, to_date('12-05-1965', 'DD-MM-YYYY'));
-insert into pacient values(pacient_seq.nextval, 'Moldovan','Alexandra','FEMEIE', '0784 352 586', 'MI@test.com', 12, 110, 9, 8, to_date('02-05-1964', 'DD-MM-YYYY'));
-
-insert into pacient values(pacient_seq.nextval, 'Tilea','Costin','BARBAT', '0744 124 243', 'TC@test.com', 13, 111, 10, 1, to_date('22-10-1981', 'DD-MM-YYYY'));
-insert into pacient values(pacient_seq.nextval, 'Dumitru','Andreea','FEMEIE', '0712 421 534', 'DA@test.com', 14, 112, 11, 7, to_date('22-06-1977', 'DD-MM-YYYY'));
-insert into pacient values(pacient_seq.nextval, 'Silvasi','Diana','FEMEIE', '0734 219 614', 'SD@test.com', 15, 113, 11, 7, to_date('31-08-1961', 'DD-MM-YYYY'));
-insert into pacient values(pacient_seq.nextval, 'Silvasi','Matei','BARBAT', '0729 661 274', 'SMa@test.com', 15, 114, 11, 7, to_date('22-01-1964', 'DD-MM-YYYY'));
-insert into pacient values(pacient_seq.nextval, 'Silvasi','Dorinel','BARBAT', '0799 323 788', 'SD@test.com', 15, null, 11, 7, to_date('04-02-2003', 'DD-MM-YYYY'));
 
 
 select * from pacient;
@@ -2140,11 +2102,10 @@ is
    
    procedure add_new_data_for_test
    is begin
-    adauga_pacient('Grigore', 'Mariana', 'FEMEIE', '0752 139 333', 'GM@test.com', 16, 117, 'f', 18, 21, to_date('22-11-1971', 'DD-MM-YYYY'));
-    adauga_pacient('Grigore', 'Mircea', 'BARBAT', '0712 139 333', 'GN@test.com', 16, 115, 'f', 18, 21, to_date('23-08-1971', 'DD-MM-YYYY'));
+
     adauga_pacient('Grigore', 'Mitrita', 'FEMEIE', '0752 129 333', 'GD@test.com', 16, 116, 'r', 18, 21, to_date('12-01-2000', 'DD-MM-YYYY'));
     adauga_pacient('Apostu', 'Lucia', 'FEMEIE', '0752 133 333', 'AL@test.com', 17, 117, 'f', 18, 21, to_date('22-10-1971', 'DD-MM-YYYY'));
-    adauga_pacient('Apostu', 'Bogdan', 'BARBAT', '0752 239 333', 'AB@test.com', 17, 118, 'r', 18, 21, to_date('22-11-1987', 'DD-MM-YYYY'));
+  
    end add_new_data_for_test;
    
    function get_cod(v_nume pacient.nume%type, v_prenume pacient.prenume%type)
