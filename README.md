@@ -46,6 +46,3 @@ Procedure that generates statistics about simptoms, comorbidities and COVID-19 t
 ## Technologies
  SQL + 
  PL/SQL
-
-## Team
-  The app was developed  as a final project in the DBMS at the University of Bucharest, Faculty of Mathematics and Computer Science, 2020-2021.
